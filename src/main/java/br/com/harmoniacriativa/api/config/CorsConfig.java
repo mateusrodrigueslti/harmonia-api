@@ -18,7 +18,7 @@ public class CorsConfig {
             new CorsConfiguration();
 
         configuration.setAllowedOrigins(
-            List.of("http://localhost:4200")
+            List.of("http://localhost:4200", "https://harmonia-criativa-eimh-nzobuor29-wanksaraujo-4859s-projects.vercel.app")
         );
 
         configuration.setAllowedMethods(
